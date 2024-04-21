@@ -1,9 +1,3 @@
-[![Build status][travis-image]][travis-url]
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/portto/solana-contract-wallet)
-
-[travis-image]: https://travis-ci.org/portto/solana-contract-wallet.svg?branch=master
-[travis-url]: https://travis-ci.org/portto/solana-contract-wallet
-
 # Solana Multi-Sig Wallet Program
 
 The project comprises of:
@@ -24,10 +18,6 @@ Each owner public key has its own weight (0~1000). Any authorized instruction re
 
 ## Quick Start
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/portto/solana-contract-wallet)
-
-If you decide to open in Gitpod then refer to [README-gitpod.md](README-gitpod.md), otherwise continue reading.
-
 The following dependencies are required to build and run this example,
 depending on your OS, they may already be installed:
 
@@ -37,7 +27,6 @@ depending on your OS, they may already be installed:
 - Install the latest Rust stable from https://rustup.rs/
 - Install Solana v1.4.7 or later from https://docs.solana.com/cli/install-solana-cli-tools
 
-If this is your first time using Docker or Rust, these [Installation Notes](README-installation-notes.md) might be helpful.
 
 ### Start local Solana cluster
 
